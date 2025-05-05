@@ -35,7 +35,7 @@ function ProjectItem({ project }) {
       </div>
 
       {!collapsed && (
-        <div className="project-body">
+        <div className="project">
           {editing ? (
             <div className="edit-form">
               <input value={name} onChange={e => setName(e.target.value)} />
